@@ -1,0 +1,18 @@
+name: SpawnPlugin
+version: 1.0
+main: com.Javieh.SpawnPlugin.SpawnPluginPaper
+api-version: 1.21
+commands:
+  setspawn:
+    description: Establece el spawn en tu ubicación actual
+    permission: setspawn.set
+  spawn:
+    description: Teletransporta al jugador al spawn
+    permission: setspawn.spawn
+permissions:
+  setspawn.set:
+    description: Permite usar /setspawn
+    default: op
+  setspawn.spawn:
+    description: Permite usar /spawn
+    default: true

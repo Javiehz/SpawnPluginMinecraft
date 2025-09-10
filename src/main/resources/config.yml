@@ -1,0 +1,5 @@
+spawn: null
+messages:
+  set: "&aHas establecido el spawn correctamente."
+  no-spawn: "&cNo hay spawn configurado."
+  teleport: "&a¡Teletransportado con éxito al spawn!."
